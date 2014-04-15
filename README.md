@@ -1,4 +1,3 @@
-
 PhoneBookContacts
 =================
 
@@ -30,7 +29,7 @@ Step 3 ->
     Call the below method to get list of all PhoneBook contacts.
     
     AllPhoneBookContactUtils.getInstance().getAllPhoneBookContacts(
-				context); -> Returns the list of objects of the class ContactData.java 
+				context); -> Returns the ArrayList of objects of the class ContactData.java 
 				
 END
 
