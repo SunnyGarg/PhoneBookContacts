@@ -297,8 +297,8 @@ Full-Width Styles
 #header_wrap img.author{
   position:absolute;
   left:25px;
-  top:25px;
-  width:150px;
+  top:50px;
+  width:200px;
 }
 
 #header_wrap .inner {
