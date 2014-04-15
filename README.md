@@ -36,6 +36,5 @@ END
 Note: ContactData.java implements Serializable and Comparable interfaces.
 
 public class ContactData implements Serializable, Comparable<ContactData> {
-----------------------------------------
---------------------------------
+
 }
