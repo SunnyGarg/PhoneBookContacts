@@ -29,3 +29,11 @@ Step 3 ->
 				context); -> Returns the list of objects of the class ContactData.java 
 				
 END
+
+
+Note: ContactData.java implements Serializable and Comparable interfaces.
+
+public class ContactData implements Serializable, Comparable<ContactData> {
+----------------------------------------
+--------------------------------
+}
