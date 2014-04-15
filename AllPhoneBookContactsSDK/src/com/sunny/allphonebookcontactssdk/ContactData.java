@@ -8,11 +8,11 @@ public class ContactData implements Serializable, Comparable<ContactData> {
 	private static final long serialVersionUID = 1L;
 
 	String contact_id;
-	String contact_name;
 	String contact_image;
 	String nickName;
+	String contact_name;
 
-	OrganizationData organization;
+	ArrayList<OrganizationData> organizations;
 	ArrayList<WebSiteData> websites;
 	ArrayList<RelationData> relations;
 	ArrayList<EmailData> emailAddresses;
@@ -21,6 +21,15 @@ public class ContactData implements Serializable, Comparable<ContactData> {
 	ArrayList<SipCall> sipAddresses;
 	ArrayList<StructeredName> structeredNames;
 	ArrayList<StructeredPostal> structeredpostals;
+	ArrayList<ContactIMData> contact_ims;
+
+	public ArrayList<ContactIMData> getContact_ims() {
+		return contact_ims;
+	}
+
+	public void setContact_ims(ArrayList<ContactIMData> contact_ims) {
+		this.contact_ims = contact_ims;
+	}
 
 	public ArrayList<StructeredPostal> getStructeredpostals() {
 		return structeredpostals;
@@ -41,6 +50,14 @@ public class ContactData implements Serializable, Comparable<ContactData> {
 
 	public void setStructeredNames(ArrayList<StructeredName> structeredNames) {
 		this.structeredNames = structeredNames;
+	}
+
+	public String getContact_name() {
+		return contact_name;
+	}
+
+	public void setContact_name(String contact_name) {
+		this.contact_name = contact_name;
 	}
 
 	public void setContactEvents(ArrayList<EventData> contactEvents) {
@@ -81,16 +98,16 @@ public class ContactData implements Serializable, Comparable<ContactData> {
 		this.relations = relations;
 	}
 
-	public OrganizationData getOrganization() {
-		return organization;
-	}
-
-	public void setOrganization(OrganizationData organization) {
-		this.organization = organization;
-	}
-
 	public ArrayList<WebSiteData> getWebsites() {
 		return websites;
+	}
+
+	public ArrayList<OrganizationData> getOrganizations() {
+		return organizations;
+	}
+
+	public void setOrganizations(ArrayList<OrganizationData> organizations) {
+		this.organizations = organizations;
 	}
 
 	public void setWebsites(ArrayList<WebSiteData> websites) {
@@ -127,14 +144,6 @@ public class ContactData implements Serializable, Comparable<ContactData> {
 
 	public void setContact_id(String contact_id) {
 		this.contact_id = contact_id;
-	}
-
-	public String getContact_name() {
-		return contact_name;
-	}
-
-	public void setContact_name(String contact_name) {
-		this.contact_name = contact_name;
 	}
 
 	public int compareTo(ContactData another) {
