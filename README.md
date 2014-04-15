@@ -1,7 +1,7 @@
 PhoneBookContacts
 =================
 
-In Andorid, Accessing the contacts informations from PhoneBook is much complex process.As the Android contact database has multiple join tables therefore it is very complex to get all the fields (multiple phone numbers, multiple email ids etc) for a particular contact. 
+In Andorid, Accessing the contacts informations from PhoneBook is much complex process. As the Android contact database has multiple join tables therefore it is very complex to get all the fields (multiple phone numbers, multiple email ids etc) for a particular contact. 
 
 We have simplified this complex process.
 
