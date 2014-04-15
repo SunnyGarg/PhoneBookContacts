@@ -291,6 +291,14 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
+  position:relative;
+}
+
+#header_wrap img.author{
+  position:absolute;
+  left:25px;
+  top:25px;
+  width:150px;
 }
 
 #header_wrap .inner {
