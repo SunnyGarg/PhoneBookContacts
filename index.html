@@ -4,7 +4,7 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="PhoneBook Contacts : As the Android contact database has multiple join tables therefore it is very complex to get all the fields (multiple phone numbers, multiple email ids etc) for a particular contact. <br>This SDK will facilitate the access of all contacts (along with all fields) )which are present in user&#39;s phonebook." />
+    <meta name="description" content="PhoneBook Contacts : As the Android contact database has multiple join tables therefore it is very complex to get all the fields (multiple phone numbers, multiple email ids etc) for a particular contact.This SDK will facilitate the access of all contacts (along with all fields) )which are present in user&#39;s phonebook." />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -19,7 +19,34 @@
           <a id="forkme_banner" href="https://github.com/SunnyGarg/PhoneBookContacts">View on GitHub</a>
 
           <h1 id="project_title">PhoneBook Contacts</h1>
-          <h2 id="project_tagline">As the Android contact database has multiple join tables therefore it is very complex to get all the fields (multiple phone numbers, multiple email ids etc) for a particular contact. This SDK will facilitate the access of all contacts (along with all fields) )which are present in user&#39;s phonebook.</h2>
+          <h2 id="project_tagline">Accessing the contacts information from PhoneBook is very very complex process for a developer. We have simplified this process for our next developers. Now a developer can get all contacts information in just 3 easy steps. 
+START
+
+Step 1 -> 
+
+    Add below permissions in manifest.xml
+    
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    
+Step 2 -> 
+
+    Get the instance of the class AllPhoneBookContactUtils.java as below explained.
+    
+    AllPhoneBookContactUtils.getInstance() -> return an instanceof the class AllPhoneBookContactUtils.java
+
+
+Step 3 -> 
+
+    Call the below method to get list of all PhoneBook contacts.
+    
+    AllPhoneBookContactUtils.getInstance().getAllPhoneBookContacts(
+				context); -> Returns the list of objects of the class ContactData.java 
+				
+END
+
+
+         </h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/SunnyGarg/PhoneBookContacts/zipball/master">Download this project as a .zip file</a>
