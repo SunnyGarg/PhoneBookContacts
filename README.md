@@ -1,9 +1,12 @@
 PhoneBookContacts
 =================
 
-As the Android contact database has multiple join tables therefore it is very complex to get all the fields (multiple phone numbers, multiple email ids etc) for a particular contact. This SDK will facilitate the access of all contacts (along with all fields) )which are present in user's phonebook.
+In Andorid, Accessing the contacts informations from PhoneBook is much complex process.As the Android contact database has multiple join tables therefore it is very complex to get all the fields (multiple phone numbers, multiple email ids etc) for a particular contact. 
 
-Integrate this SDK in 3 easy steps.
+We have simplified this complex process.
+
+Now a developer can get all contacts information in just 3 easy steps.
+
 
 START
 
