@@ -2,7 +2,7 @@
 
 An Android SDK to deal with PhoneBook Contacts.
 
-<h1>SDK Compatibility</h1>
+<h1>Android Version Compatibility</h1>
 
 SDK designed for use with Android devices and simulators. Requires Android 2.3 or later.
 
