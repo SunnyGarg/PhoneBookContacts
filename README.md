@@ -1,6 +1,8 @@
 PhoneBookContacts
 =================
 
+SDK designed for use with Android devices and simulators. Requires Android 2.3 or later.
+
 In Andorid, Accessing the contacts informations from PhoneBook is much complex process. As the Android contact database has multiple join tables therefore it is very complex to get all the fields (multiple phone numbers, multiple email ids etc) for a particular contact. 
 
 We have simplified this complex process.
