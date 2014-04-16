@@ -16,7 +16,6 @@ Now a developer can get all contacts information in just 3 easy steps.
 
 <h1> How to use this SDK</h1>
 
-START
 
 Step 1 -> 
 
@@ -39,9 +38,6 @@ Step 3 ->
     AllPhoneBookContactUtils.getInstance().getAllPhoneBookContacts(
 				context); -> Returns the ArrayList of objects of the class ContactData.java 
 				
-END
-
-
 
 
 Note: ContactData.java implements Serializable and Comparable interfaces.
